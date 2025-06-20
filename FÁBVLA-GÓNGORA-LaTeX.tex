@@ -18,7 +18,7 @@
 \Xinplaceoflemmaseparator{0em}
 \newcommand{\comillas}[1]{«#1»}
 \setdefaultlanguage{spanish}
-\setmainfont[Numbers=Lining,BoldFont={}]{Common serif}
+\setmainfont{Common serif}[Numbers=Lining,BoldFont={},RawFeature={-calt}]
 \fnpos{critical-familiar}
 \fnpos{{A}{familiar},{A}{critical},{C}{familiar}}
 \Xprenotes{11pt}
@@ -35,7 +35,7 @@
 		}
 		\newpage%
 
-\null
+\hskip0pt
 \vfill
 	\begin{flushright}
 	\textit{Documento procesado en} LuaLaTeX \textit{con el paquete} Reledmac \textit{de Maïeul Rouquette}.
@@ -802,6 +802,6 @@ lamiendo flores y argentando arenas,\\
 a Doris llega, que, con llanto pío,\\
 yerno lo saludó, lo aclamó rio.\pend
 \endnumbering
-\vfill
 \relax
+\vfill
 \end{document}
