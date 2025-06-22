@@ -28,7 +28,10 @@
 %
 \usepackage{tocloft}
 \renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}}
-%Aquí cierran los comandos más específicos.
+%Espaciado de la lista.
+\usepackage{enumitem}
+\setlist{nosep,noitemsep,parsep=0pt}
+%
 \begin{document}
 	{\pagenumbering{gobble}
 			\maketitle
@@ -71,23 +74,18 @@ Manuscrito en papel; 363 págs.; 21x15cm.; entre 1601 y 1700?; contiene noticias
 
 Transcripción del Códice Chacón, porque contiene la redacción definitiva del texto del \textit{Polifemo}. Cuando \textit{Ch} lee erróneamente o sus lecciones parecen ser contrarias al autor, se adoptarán las lecciones de \textit{LVi} y, si este erra, se adoptarán las de Pellicer. Es necesario destacar que \textit{Ch} tiene la supervisión del autor y, por tanto, posee carácter de idiógrafo. 
 
-Criterios de presentación gráfica: 
+Criterios de presentación ortográficos: 
 
-~\textit{v}-\textit{u} = se quita la alternancia y se designa \textit{v} para consonantes y \textit{u} para vocales.
-
-~\textit{tt}-\textit{rr}-\textit{ss}-\textit{ff} [excepto \textit{ll} y otros dobles en nombres] = se simplifican.
-
-~\textit{i}-\textit{j}-\textit{y} = se regulariza la alternancia. Se coloca \textit{i} para vocales, \textit{j }para consonantes e \textit{y} para la conjunción copulativa o vocablos finalizados en \textit{y} vocal.
-
-~\textit{h} = se añade donde no las hay, por ejemplo, «oy» [hoy].
-
-Los excesivos leísmos de \textit{Ch} se regularizan.
-
-\textit{ch} debe leerse como \textit{k}-\textit{kh} en vocablos provenientes del griego —pensados a través del latín—, tal como \textit{Baccho} [Baco], \textit{echo} [eco], \textit{choro} [coro], etc.; y en el resto de vocablos, por ejemplo, en \textit{corcho}, \textit{ch} debe leerse con los criterios fonéticos actuales.
-
-Se adopta la puntuación propuesta por la edición de \textcite{Alonso1967}.
-
-Se sigue la acentuación moderna.
+\begin{itemize}[label=--]%
+\item \textit{v}-\textit{u} = se quita la alternancia y se designa \textit{v} para consonantes y \textit{u} para vocales.
+\item \textit{tt}-\textit{rr}-\textit{ss}-\textit{ff} [excepto \textit{ll} y otros dobles en nombres] = se simplifican.
+\item \textit{i}-\textit{j}-\textit{y} = se regulariza la alternancia. Se coloca \textit{i} para vocales, \textit{j }para consonantes e \textit{y} para la conjunción copulativa o vocablos finalizados en \textit{y} vocal.
+\item \textit{h} = se añade donde no las hay, por ejemplo, «oy» [hoy].
+\item Los excesivos leísmos de \textit{Ch} se regularizan.
+\item \textit{ch} debe leerse como \textit{k}-\textit{kh} en vocablos provenientes del griego —pensados a través del latín—, tal como \textit{Baccho} [Baco], \textit{echo} [eco], \textit{choro} [coro], etc.; y en el resto de vocablos, por ejemplo, en \textit{corcho}, \textit{ch} debe leerse con los criterios fonéticos actuales.
+\item Se adopta la puntuación propuesta por la edición de \textcite{Alonso1967}.
+\item Se sigue la acentuación moderna.%
+\end{itemize}
 
 El \comillas{aparato crítico} es negativo. Se reproducen los errores de \textit{Ch} y todas las variantes de \textit{G1} en el \comillas{aparato crítico}. Los \textit{lemmata} se colocaron tal cual se editaron para el texto crítico, porque estos servirán solo de referencia para el análisis posterior de la evolución del texto. 
 
