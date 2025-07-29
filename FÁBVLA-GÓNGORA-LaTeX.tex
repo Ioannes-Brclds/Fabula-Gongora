@@ -10,7 +10,7 @@
 \author{\fontsize{14}{11.96}\selectfont LVIS DE GÓNGORA}
 \date{\vspace{60pt}\fontsize{11}{11}\selectfont{TEXTO Y VARIANTES DE LA REDACCIÓN PRIMITIVA}\\\fontsize{40}{11}\selectfont{\vfill\LaTeX}}
 %
-\setmainfont{Free-serif}[Numbers=Lining,BoldFont=]
+\setmainfont{FreeSerif}[ItalicFont=FreeSerif Italic,BoldFont=,Numbers=Lining] %Por algún motivo que desconozco, a partir de la fecha fontspec no está tomando la cursiva de FreeSerif, cuyo archivo .otf los tengo en la carpeta fonts de Linux Mint; entonces, fue necesario definir la cursiva para que lo adopte para esta actualización.
 \setdefaultlanguage{spanish}
 %
 \setlength{\parindent}{0.6cm}
@@ -104,8 +104,8 @@ Criterios de presentación ortográficos:
 
 El \comillas{aparato crítico} es negativo. Se reproducen los errores de \textit{Ch} y todas las variantes de \textit{G1} en el \comillas{aparato crítico}. Los \textit{lemmata} se colocaron tal cual se editaron para el texto crítico, porque estos servirán solo de referencia para el análisis posterior de la evolución del texto.
 
-\section*{\fontsize{11}{14}\selectfont BIBLIOGRAFÍA}
-\addcontentsline{toc}{section}{Bibliografía}
+\section*{\fontsize{11}{14}\selectfont BIBLIOGRAFÍA CONSVLTADA}
+\addcontentsline{toc}{section}{Bibliografía consultada}
 \nocite{*}
 \printbibliography[heading=none]
 \newpage
@@ -238,7 +238,7 @@ de la piadosa hierba, encomendada:\\
 \edtext{la serva, a quien leda rugas el heno}{\Afootnote{la delicada selua aquien el heno \textit{G1}}};\\
 \edtext{la pera, de quien fue cuna dorada}{\Afootnote{rugas la da en la cuna la opilada \textit{G1}}}\\
 \edtext{la rubia paja; y --pálida tutora--}{\Afootnote{camuesa, del color pierde amarillo \textit{G1}}}\\
-\edtext{la niega avara, y prodiga la dora}{\Afootnote{en tomando el azero del cuchillo \textit{G1}}}\footnoteE{77-80 = en el f. 65\textsuperscript{v.} del MS/3096 --el autógrafo de la segunda redacción de la carta--, Pedro de Valencia enuncia, respecto a los pasajes, contrastándolos con las \textit{Soledades}: «[...] i como en casi todo el discurso destas Soledades, alta i grandiosame\textit{n}te con sencilleza i claridad, co\textit{n} breves periodos i los vocablos en sus lugares, i no se vaya co\textit{n} pretension de grandeza i altura a buscar i imitar lo estraño oscuro, ageno, i no tal como lo q\textit{ue} a v. m. le nasce en casa; i no me diga que la camuesa pierde el color amarillo, en tomando el azero del cuchillo [...]». En el comentario sexto, antes de presentar estas variantes, Pellicer en su \textit{Lecciones solemnes} enuncia: «De la tutela harto los I. C. en algunos M. S. se lee la mitad desta estancia distintamente, y no se si diga mejor, […] En \textit{modandola}, aludiendo a la enfermedad de la opilación, contraida de comer barro, y de la mucha agua, tan frecuente en las damas de España: para cuyo remedio es vtil la \textit{flor de azero}, o \textit{la escama}, y el andar, como siente \textit{Galeno li. 9. Simpl.} y \textit{Dioscorides lib. 5}, \textit{c. 49.}». La única variante de Pellicer respecto a \textit{G1} está en \textit{serua}, variante solo gráfica.}.\par\pend
+\edtext{la niega avara, y prodiga la dora}{\Afootnote{en tomando el azero del cuchillo \textit{G1}}}\footnoteE{77--80 = en el f. 65\textsuperscript{v.} del MS/3096 --el autógrafo de la segunda redacción de la carta--, Pedro de Valencia enuncia, respecto a los pasajes, contrastándolos con las \textit{Soledades}: «[...] i como en casi todo el discurso destas Soledades, alta i grandiosame\textit{n}te con sencilleza i claridad, co\textit{n} breves periodos i los vocablos en sus lugares, i no se vaya co\textit{n} pretension de grandeza i altura a buscar i imitar lo estraño oscuro, ageno, i no tal como lo q\textit{ue} a v. m. le nasce en casa; i no me diga que la camuesa pierde el color amarillo, en tomando el azero del cuchillo [...]». En el apunte sexto, antes de presentar estas variantes, Pellicer en su \textit{Lecciones solemnes} enuncia: «De la tutela harto los I. C. en algunos M. S. se lee la mitad desta estancia distintamente, y no se si diga mejor, […] En \textit{modandola}, aludiendo a la enfermedad de la opilación, contraida de comer barro, y de la mucha agua, tan frecuente en las damas de España: para cuyo remedio es vtil la \textit{flor de azero}, o \textit{la escama}, y el andar, como siente \textit{Galeno li. 9. Simpl.} y \textit{Dioscorides lib. 5}, \textit{c. 49.}». La única variante de Pellicer respecto a \textit{G1} está en \textit{serua}, variante solo gráfica.}.\par\pend
 
 \begin{center}
 	[XI]
@@ -251,7 +251,11 @@ y, de la encina (honor de la montaña,\\
 que pavellón al siglo fue dorado)\\
 el tributo, alimento, aunque grosero,\\
 del \edtext{mejor}{\Afootnote{primer \textit{G1}}} mundo, del candor primero.\par\pend
+\relax
+\vfill
+\newpage
 
+\nopagebreak
 \begin{center}
 	[XII]
 \end{center}\pstart
@@ -299,6 +303,9 @@ Verde el cabello, el pecho no escamado,\\
 ronco sí, escucha a Glauco la ribera\\
 inducir a pisar la bella ingrata,\\
 en carro de cristal, campos de plata.\par\pend
+\relax
+\vfill
+\newpage
 
 \begin{center}
 	[XVI]
@@ -395,6 +402,9 @@ Dulce se quexa, dulce le responde\\
 un ruiseñor a otro, y dulcemente\\
 al sueño da sus ojos la armonía,\\
 por no abrasar con tres soles al día.\par\pend
+\relax
+\vfill
+\newpage
 
 \begin{center}
 	[XXIV]
@@ -443,6 +453,7 @@ Vagas cortinas de volantes vanos\\
 corrió Fabonio lisongeramente\\
 a la (de viento quando no sea) cama\\
 de frescas sombras, de menuda grama.\par\pend
+\newpage
 
 \begin{center}
 	[XXVIII]
@@ -538,6 +549,9 @@ Del casi tramontado sol aspira\\
 a los confusos rayos, su cabello;\\
 flores su bozo es, cuyas colores,\\
 como duerme la luz, niegan las flores.\par\pend
+\relax
+\vfill
+\newpage
 
 \begin{center}
 	[XXXVI]
@@ -586,6 +600,9 @@ Lo cóncavo hacía de una peña\\
 a un fresco sitïal dosel umbroso,\\
 y verdes celosías unas hiedras,\\
 trepando troncos y abrazando piedras.\par\pend
+\relax
+\vfill
+\newpage
 
 \begin{center}
 	[XL]
@@ -633,6 +650,9 @@ do el carro de la luz sus ruedas lava,\\ quando, de amor el fiero jayán ciego,\
 la cerviz le oprimió a una roca brava,\\
 que a la playa, de escollos no desnuda,\\
 linterna es ciega y atalaya muda.\par\pend
+\relax
+\vfill
+\newpage
 
 \begin{center}
 	[XLIV]
@@ -681,6 +701,9 @@ Pisa la arena, que en la arena adoro\\
 quantas el blanco pie conchas platea,\\
 cuyo bello contacto puede hacerlas\\
 sin concebir roció, parir perlas.\par\pend
+\relax
+\vfill
+\newpage
 
 \begin{center}
 	[XLVIII]
@@ -729,6 +752,9 @@ Poliphemo te llama, no te escondas;\\
 que tanto esposo admira la ribera,\\
 qual otro no vio Phebo, más robusto,\\
 del perezoso Bolga al Indo adusto.\par\pend
+\relax
+\vfill
+\newpage
 
 \begin{center}
 	[LII]
@@ -777,6 +803,9 @@ Yugo aquel día, y yugo bien süave,\\
 del fiero mar a la sañuda frente\\
 imponiéndole estava (si no al viento\\
 dulcísimas coyundas) mi instrumento,\par\pend
+\relax
+\vfill
+\newpage
 
 \begin{center}
 	[LVI]
@@ -825,6 +854,9 @@ Mas, conculcado el pámpano más tierno\\
 viendo el fiero pastor, vozes él tantas,\\
 y tantas despidió la honda piedras,\\
 que el muro penetraron de las yedras.\par\pend
+\relax
+\vfill
+\newpage
 
 \begin{center}
 	[LX]
